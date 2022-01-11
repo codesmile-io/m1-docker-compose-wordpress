@@ -1,5 +1,8 @@
 # m1-wp-docker
-This repo contains a setup where you can work with newest Macbook M1s with a containerized setup. Setups such as Lando, Warded among others dont support M1 yet and I got tired of performance issues by using their setup.
+This repo contains a setup where you can work with Macbook M1s with a containerized setup. Setups such as Lando, Warded among others dont support M1 yet and I got tired of performance issues by using their setup.
+
+It should work for any OS/Architecture as long as they are supported by the official images for the below containers:
+
 This setup is using
 - Traefik 2.4
 - Mariadb Latest

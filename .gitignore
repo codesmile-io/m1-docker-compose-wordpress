@@ -1,0 +1,8 @@
+# MySQL
+docker-files/mysql/*
+
+#Certs
+docker-files/certs/*
+
+#PHP COMPOSER AUTH.JSON
+docker-files/php/auth.json

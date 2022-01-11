@@ -1,5 +1,5 @@
 # m1-wp-docker
-This repo contains a setup where you can work with Macbook M1s with a containerized setup. Setups such as Lando, Warded among others dont support M1 yet and I got tired of performance issues by using their setup.
+This is a setup that works for M1 processors. Setups such as Lando, Warded among others dont support M1 yet and I got tired of performance issues by using their setup.
 
 It should work for any OS/Architecture as long as they are supported by the official images for the below containers:
 
@@ -8,6 +8,7 @@ This setup is using
 - Mariadb Latest
 - Nginx 1.19
 - PHP-FPM 7.4
+- - Composer 2.x
 - PhpMyAdmin at port 9000
 - Self generated SSL certs so that you can use HTTPS locally
 

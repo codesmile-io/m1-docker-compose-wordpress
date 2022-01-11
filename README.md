@@ -11,8 +11,8 @@ This setup is using
 - PhpMyAdmin at port 9000
 - Self generated SSL certs so that you can use HTTPS locally
 
-## Docker Composer
-This is docker-composer based.
+## Prerequisites
+This is docker-composer based setup and you must have that installed in order to use this setup. You can find more info about it here: https://docs.docker.com/compose/install/
 
 ## Setup
 In order to use docker you need to run:

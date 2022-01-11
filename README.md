@@ -6,7 +6,7 @@ This setup is using
 - Nginx 1.19
 - PHP-FPM 7.4
 - PhpMyAdmin at port 9000
-- Self generated certs so that you can use HTTPS locally
+- Self generated SSL certs so that you can use HTTPS locally
 
 ## Docker Composer
 This is docker-composer based.

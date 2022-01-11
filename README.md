@@ -25,6 +25,12 @@ Set your /etc/hosts to whatever `WP_DOMAIN` you set, ie : `127.0.0.1 domain.test
 
 Place any `backup.sql` in the db directory and it should automatically be copied and imported when starting the container.
 
+### Normal Wordpress installation
+Place the WP installation in `web`
+
+### Bedrock / Sage Wordpress installation
+Put these files in the sage root so you have a `web` dir to look at.
+
 ## Nginx
 My setup is based on the bedrock / Sage setup where you have composer in root and look at the `/web` dir for nginx. Thus its important that if you dont go the sage way you still need to put all files in the `web/` dir. Or change the config file in `/docker-files/nginx/default.conf`: `root /var/www/html/web;` to whatever you put your files in.
 

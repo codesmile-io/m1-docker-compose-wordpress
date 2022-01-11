@@ -27,5 +27,7 @@ Place any `backup.sql` in the db directory and it should automatically be copied
 
 ## Important when it comes to MYSQL
 Note that if the mysql dir is not empty, the setup will not create a new database. Ie. Remove any files in `docker-files/mysql` if you wish to recreate the db or do a new import of the database
+
 The import takes a couple of minutes on the first startup. If you close down the container before the import has finished you need to empty and recreate the mysql container in order for it to import the database.
+
 You cant runt the import twice, only once. However if you want to you can always change the symlink to another name, then it will pick it up.

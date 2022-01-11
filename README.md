@@ -1,12 +1,12 @@
 # m1-wp-docker
 This repo contains a setup where you can work with newest Macbook M1s with a containerized setup. Setups such as Lando, Warded among others dont support M1 yet and I got tired of performance issues by using their setup.
 This setup is using
-[-] Traefik 2.4
-[-] Mariadb Latest
-[-] Nginx 1.19
-[-] PHP-FPM 7.4
-[-] PhpMyAdmin at port 9000
-[-] Self generated certs so that you can use HTTPS locally
+- Traefik 2.4
+- Mariadb Latest
+- Nginx 1.19
+- PHP-FPM 7.4
+- PhpMyAdmin at port 9000
+- Self generated certs so that you can use HTTPS locally
 
 ## Docker Composer
 This is docker-composer based.
